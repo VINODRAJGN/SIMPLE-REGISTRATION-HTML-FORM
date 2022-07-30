@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php">
+<h3>Enter your name:</h3>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname"><br>
+ 
+  <h3>Gender:</h3>
+  <input type="radio" id="html" name="fav_language" value="HTML">
+  <label for="male">Male</label><br>
+  <input type="radio" id="css" name="fav_language" value="CSS">
+  <label for="female">Female</label><br>
+  <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+  <label for="other">Other</label><br>
+ 
+  <h3>Email:</h3>
+  <input type="text" id="fname" name="fname"><br>
+ 
+  <h3>Password:</h3>
+  <label for="pwd">Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+   <label for="pwd">Confirm Password:</label><br>
+  <input type="password" id="pwd" name="pwd"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset" value="Reset">
+</form>
+     
+</body>
+</html>
